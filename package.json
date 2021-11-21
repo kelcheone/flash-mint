@@ -16,5 +16,8 @@
   },
   "scripts": {
     "lint": "prettier --write src/**/*.sol"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3"
   }
 }

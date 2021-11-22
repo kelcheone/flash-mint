@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "./interfaces/IFlashMinter.sol";
 
-contract FlshMinter is IFlashMinter {
+contract FlashMinter is IFlashMinter {
     uint256 public totalBorrowed;
     address private immutable _controler;
     address private immutable _fWETH;
